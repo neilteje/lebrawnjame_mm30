@@ -49,13 +49,13 @@ class Strategy(BaseStrategy):
             response[id] = min(1, response[id])
             response[id] = max(-1, response[id])
             
-            if plane.position.x < -40 and self.team == 1:
+            if plane.position.x < -39 and self.team == 1:
                 response[id] = -1
-            elif plane.position.x < -40:
+            elif plane.position.x < -39:
                 response[id] = 1
-            elif plane.position.x > 40 and self.team == 1:
+            elif plane.position.x > 39 and self.team == 1:
                 response[id] = 1
-            elif plane.position.x > 40:
+            elif plane.position.x > 39:
                 response[id] = -1
 
         return response

@@ -1,0 +1,24 @@
+
+> engine@0.1.0 start
+> node --enable-source-maps out/main.js 9001 0
+
+Waiting for connection from team 0 on 9001
+Created computer for team 1
+Connected to team 0 on 9001
+Game started!
+[Turn 30.466666666666665] [Damage event] PLANE_ATTACK: plane 2 damaged by 14 for 1 damage, still alive
+[Turn 30.8] [Damage event] PLANE_ATTACK: plane 2 damaged by 15 for 1 damage, still alive
+[Turn 31] [Damage event] PLANE_ATTACK: plane 2 damaged by 14 for 1 damage, still alive
+[Turn 31] [Damage event] PLANE_ATTACK: plane 2 damaged by 15 for 1 damage, still alive
+[Turn 31.133333333333333] [Damage event] COLLISION: plane 14 damaged by 2 for 20 damage, now dead
+[Turn 31.133333333333333] [Damage event] COLLISION: plane 2 damaged by 14 for 6 damage, now dead
+[Turn 40.8] [Damage event] PLANE_ATTACK: plane 3 damaged by 15 for 1 damage, still alive
+[Turn 41] [Damage event] PLANE_ATTACK: plane 3 damaged by 15 for 1 damage, still alive
+[Turn 42] [Damage event] PLANE_ATTACK: plane 3 damaged by 15 for 1 damage, still alive
+[Turn 48.733333333333334] [Damage event] COLLISION: plane 15 damaged by 3 for 20 damage, now dead
+[Turn 48.733333333333334] [Damage event] COLLISION: plane 3 damaged by 15 for 2 damage, now dead
+[Turn 48.8] [Damage event] BORDER: plane 0 damaged for 20 damage, now dead
+[Turn 76.53333333333333] [Damage event] BORDER: plane 13 damaged for 1 damage, now dead
+Game ended!
+Writing gamelog to ../../logs/log_2024_09_21__21_16_53/gamelog.json...
+Done

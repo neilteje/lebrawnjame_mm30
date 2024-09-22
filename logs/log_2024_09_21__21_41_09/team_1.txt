@@ -1,0 +1,7 @@
+Connecting to server on port 9001...
+Connected to server on port 9001
+You won!
+Stats:
+- 670 remaining plane score
+- Spent 1000 points
+- Dealt 60 damage

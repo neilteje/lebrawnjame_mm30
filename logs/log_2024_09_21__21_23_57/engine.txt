@@ -1,0 +1,14 @@
+
+> engine@0.1.0 start
+> node --enable-source-maps out/main.js 0 9001
+
+Created computer for team 0
+Waiting for connection from team 1 on 9001
+Connected to team 1 on 9001
+Game started!
+[Turn 57.4] [Damage event] BORDER: plane 3 damaged for 20 damage, now dead
+[Turn 75] [Damage event] BORDER: plane 8 damaged for 1 damage, now dead
+[Turn 174.66666666666666] [Damage event] BORDER: plane 9 damaged for 1 damage, now dead
+Game ended!
+Writing gamelog to ../../logs/log_2024_09_21__21_23_57/gamelog.json...
+Done

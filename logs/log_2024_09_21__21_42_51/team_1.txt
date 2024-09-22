@@ -1,0 +1,7 @@
+Connecting to server on port 3002...
+Connected to server on port 3002
+You lost!
+Stats:
+- 0 remaining plane score
+- Spent 1000 points
+- Dealt 90 damage

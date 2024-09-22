@@ -1,0 +1,30 @@
+Connecting to server on port 9001...
+Connected to server on port 9001
+Something went wrong running your bot: name 'closest_enemy' is not defined
+Traceback (most recent call last):
+File "/Users/neilteje/development/mechmania2024/lebrawnjame_mm30/main.py", line 245, in serve
+response = strategy.steer_input(planes)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/Users/neilteje/development/mechmania2024/lebrawnjame_mm30/strategy/strategy.py", line 42, in steer_input
+steer_angle = self.angles(plane, closest_enemy)
+^^^^^^^^^^^^^
+NameError: name 'closest_enemy' is not defined. Did you mean: 'closestEnemy'?
+Something went wrong running your bot: name 'closest_enemy' is not defined
+Traceback (most recent call last):
+File "/Users/neilteje/development/mechmania2024/lebrawnjame_mm30/main.py", line 245, in serve
+response = strategy.steer_input(planes)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/Users/neilteje/development/mechmania2024/lebrawnjame_mm30/strategy/strategy.py", line 42, in steer_input
+steer_angle = self.angles(plane, closest_enemy)
+^^^^^^^^^^^^^
+NameError: name 'closest_enemy' is not defined. Did you mean: 'closestEnemy'?
+Something went wrong running your bot: name 'closest_enemy' is not defined
+Traceback (most recent call last):
+File "/Users/neilteje/development/mechmania2024/lebrawnjame_mm30/main.py", line 245, in serve
+response = strategy.steer_input(planes)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/Users/neilteje/development/mechmania2024/lebrawnjame_mm30/strategy/strategy.py", line 42, in steer_input
+steer_angle = self.angles(plane, closest_enemy)
+^^^^^^^^^^^^^
+NameError: name 'closest_enemy' is not defined. Did you mean: 'closestEnemy'?
+Your bot failed to respond 3 times in a row (is your bot broken?) and was disconnected

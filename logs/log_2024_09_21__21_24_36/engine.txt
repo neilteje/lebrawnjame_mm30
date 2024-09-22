@@ -1,0 +1,19 @@
+
+> engine@0.1.0 start
+> node --enable-source-maps out/main.js 3001 3002
+
+Waiting for connection from team 0 on 3001
+Waiting for connection from team 1 on 3002
+Connected to team 0 on 3001
+Connected to team 1 on 3002
+Game started!
+[Turn 40.46666666666667] [Damage event] BORDER: plane 2 damaged for 10 damage, now dead
+[Turn 41] [Damage event] BORDER: plane 16 damaged for 10 damage, now dead
+[Turn 67.06666666666666] [Damage event] BORDER: plane 15 damaged for 30 damage, now dead
+[Turn 75.6] [Damage event] BORDER: plane 7 damaged for 1 damage, now dead
+[Turn 90.8] [Damage event] BORDER: plane 9 damaged for 1 damage, now dead
+[Turn 108] [Damage event] BORDER: plane 1 damaged for 30 damage, now dead
+[Turn 143.8] [Damage event] BORDER: plane 6 damaged for 1 damage, now dead
+Game ended!
+Writing gamelog to ../../logs/log_2024_09_21__21_24_36/gamelog.json...
+Done

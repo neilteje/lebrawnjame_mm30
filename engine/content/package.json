@@ -1,0 +1,28 @@
+{
+    "name": "engine",
+    "version": "0.1.0",
+    "scripts": {
+        "format:check": "prettier --check '**/*.{ts,js,cjs,json}'",
+        "format": "prettier --write '**/*.{ts,js,cjs,json}'",
+        "lint:check": "eslint src --ext .js,.jsx,.ts,.tsx",
+        "lint": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+        "build": "tsc",
+        "verify": "npm run lint:check && npm run format:check && npm run build",
+        "start": "node --enable-source-maps out/main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "typescript": "^5.2.2",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "@types/node": "^20.8.10",
+        "@typescript-eslint/eslint-plugin": "^6.9.0",
+        "@typescript-eslint/parser": "^6.9.0",
+        "eslint": "^8.52.0",
+        "prettier": "^3.0.3"
+    }
+}

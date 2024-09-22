@@ -1,54 +1,63 @@
 import random
 from game.base_strategy import BaseStrategy
 from game.plane import Plane, PlaneType
-
-# The following is the heart of your bot. This controls what your bot does.
-# Feel free to change the behavior to your heart's content.
-# You can also add other files under the strategy/ folder and import them
+from math import atan2, degrees
 
 class Strategy(BaseStrategy):
-    # BaseStrategy provides self.team, so you use self.team to see what team you are on
-
-    # You can define whatever variables you want here
-    my_counter = 0
-    my_steers = dict()
-    
     def select_planes(self) -> dict[PlaneType, int]:
-        # Select which planes you want, and what number
         return {
-            PlaneType.STANDARD: 1,
-            PlaneType.FLYING_FORTRESS: 1,
-            PlaneType.THUNDERBIRD: 1,
-            PlaneType.SCRAPYARD_RESCUE: 1,
-            PlaneType.PIGEON: 10,
+            # PlaneType.FLYING_FORTRESS: 1,  
+            # PlaneType.THUNDERBIRD: 3,     
+            # PlaneType.SCRAPYARD_RESCUE: 2,
+            PlaneType.PIGEON: 100
         }
-    
+
     def steer_input(self, planes: dict[str, Plane]) -> dict[str, float]:
-        # Define a dictionary to hold our response
         response = dict()
-
-        # For each plane
+        # going thru planes
         for id, plane in planes.items():
-            # id is the unique id of the plane, plane is a Plane object
-
-            # We can only control our own planes
             if plane.team != self.team:
-                # Ignore any planes that aren't our own - continue
                 continue
+            closestAlly = float('inf')
+            closestEnemy = float('inf')
+            whichClosestEnemy = None
 
-            # If we're within the first 5 turns, just set the steer to 0
-            if self.my_counter < 5:
-                response[id] = 0
-            else:
-                # If we haven't initialized steers yet, generate a random one for this plane
-                if id not in self.my_steers:
-                    self.my_steers[id] = random.random() * 2 - 1
+            for other_id, other_plane in planes.items():
+                if other_plane.team == self.team and other_id != id:
+                    # no collisions with allies
+                    ally_distance = self.distance(plane.position, other_plane.position)
+                    if ally_distance < closestAlly:
+                        closestAlly = ally_distance
+                elif other_plane.team != self.team:
+                    # closest enemybob
+                    enemy_distance = self.distance(plane.position, other_plane.position)
+                    if enemy_distance < closestEnemy:
+                        closestEnemy = enemy_distance
+                        whichClosestEnemy = other_plane
 
-                # Set the steer for this plane to our previously decided steer
-                response[id] = self.my_steers[id]
+            if closestAlly < 3:  # three units : ally
+                response[id] = random.choice([-1, 1])
+                continue
+            if whichClosestEnemy:
+                steer_angle = self.angles(plane, whichClosestEnemy)
+                steer_value = self.planesSteering(plane.angle, steer_angle, plane.stats.turn_speed)
+                response[id] = steer_value
 
-        # Increment counter to keep track of what turn we're on
-        self.my_counter += 1
-
-        # Return the steers
         return response
+
+    def distance(self, pos1, pos2) -> float:
+        return ((pos1.x - pos2.x) ** 2 + (pos1.y - pos2.y) ** 2) ** 0.5
+
+    def angles(self, plane: Plane, target: Plane) -> float:
+        dx = target.position.x - plane.position.x
+        dy = target.position.y - plane.position.y
+        angle = degrees(atan2(dy, dx)) % 360
+        return angle
+
+    def planesSteering(self, current_angle: float, target_angle: float, turn_speed: float) -> float:
+        angle_diff = (target_angle - current_angle + 360) % 360
+        if angle_diff > 180:
+            angle_diff -= 360
+
+        steer = max(-1, min(1, angle_diff / turn_speed))
+        return steer

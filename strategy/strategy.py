@@ -33,7 +33,11 @@ class Strategy(BaseStrategy):
 
             # bait planes logic
             if id in bait_planes:
-                target = top_edge if plane.position.y < top_edge - 11 else bottom_edge
+                target = 0
+                if self.team == 1:
+                    target = 50 if plane.position.y < 39 else -50
+                else:
+                    target = -50 if plane.position.y > -39 else 50
                 # steer, second = plane_find_path_to_point(Vector(0, target), plane)
                 response[id] = 0 if target == top_edge else -1
 

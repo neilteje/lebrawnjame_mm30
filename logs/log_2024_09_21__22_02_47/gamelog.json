@@ -1,0 +1,4251 @@
+{
+	"wins": [
+		0.5,
+		0.5
+	],
+	"stats": {
+		"remainingPlaneScores": [
+			0,
+			0
+		],
+		"totalSpends": [
+			800,
+			800
+		],
+		"dealtDamages": [
+			80,
+			80
+		]
+	},
+	"planeStats": {
+		"STANDARD": {
+			"cost": 200,
+			"maxHealth": 20,
+			"turnSpeed": 15,
+			"speed": 2,
+			"attack": 1,
+			"attackRange": 5,
+			"attackSpreadAngle": 30
+		},
+		"FLYING_FORTRESS": {
+			"cost": 300,
+			"maxHealth": 30,
+			"turnSpeed": 10,
+			"speed": 1,
+			"attack": 1,
+			"attackRange": 8,
+			"attackSpreadAngle": 30
+		},
+		"THUNDERBIRD": {
+			"cost": 200,
+			"maxHealth": 10,
+			"turnSpeed": 15,
+			"speed": 2.5,
+			"attack": 1,
+			"attackRange": 5,
+			"attackSpreadAngle": 30
+		},
+		"SCRAPYARD_RESCUE": {
+			"cost": 100,
+			"maxHealth": 5,
+			"turnSpeed": 10,
+			"speed": 1.5,
+			"attack": 1,
+			"attackRange": 4,
+			"attackSpreadAngle": 20
+		},
+		"PIGEON": {
+			"cost": 10,
+			"maxHealth": 1,
+			"turnSpeed": 30,
+			"speed": 0.5,
+			"attack": 0,
+			"attackRange": 0,
+			"attackSpreadAngle": 0
+		}
+	},
+	"damageEvents": [
+		{
+			"turn": 22.2,
+			"type": "PLANE_ATTACK",
+			"attacked": "4",
+			"by": "0",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 22.2,
+			"type": "PLANE_ATTACK",
+			"attacked": "5",
+			"by": "1",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 22.2,
+			"type": "PLANE_ATTACK",
+			"attacked": "6",
+			"by": "2",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 22.2,
+			"type": "PLANE_ATTACK",
+			"attacked": "7",
+			"by": "3",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 22.2,
+			"type": "PLANE_ATTACK",
+			"attacked": "0",
+			"by": "4",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 22.2,
+			"type": "PLANE_ATTACK",
+			"attacked": "1",
+			"by": "5",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 22.2,
+			"type": "PLANE_ATTACK",
+			"attacked": "2",
+			"by": "6",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 22.2,
+			"type": "PLANE_ATTACK",
+			"attacked": "3",
+			"by": "7",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 23,
+			"type": "PLANE_ATTACK",
+			"attacked": "4",
+			"by": "0",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 23,
+			"type": "PLANE_ATTACK",
+			"attacked": "5",
+			"by": "1",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 23,
+			"type": "PLANE_ATTACK",
+			"attacked": "6",
+			"by": "2",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 23,
+			"type": "PLANE_ATTACK",
+			"attacked": "7",
+			"by": "3",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 23,
+			"type": "PLANE_ATTACK",
+			"attacked": "0",
+			"by": "4",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 23,
+			"type": "PLANE_ATTACK",
+			"attacked": "1",
+			"by": "5",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 23,
+			"type": "PLANE_ATTACK",
+			"attacked": "2",
+			"by": "6",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 23,
+			"type": "PLANE_ATTACK",
+			"attacked": "3",
+			"by": "7",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 23.2,
+			"type": "COLLISION",
+			"attacked": "4",
+			"by": "0",
+			"damage": 18,
+			"dead": true
+		},
+		{
+			"turn": 23.2,
+			"type": "COLLISION",
+			"attacked": "5",
+			"by": "1",
+			"damage": 18,
+			"dead": true
+		},
+		{
+			"turn": 23.2,
+			"type": "COLLISION",
+			"attacked": "6",
+			"by": "2",
+			"damage": 18,
+			"dead": true
+		},
+		{
+			"turn": 23.2,
+			"type": "COLLISION",
+			"attacked": "7",
+			"by": "3",
+			"damage": 18,
+			"dead": true
+		},
+		{
+			"turn": 23.2,
+			"type": "COLLISION",
+			"attacked": "0",
+			"by": "4",
+			"damage": 18,
+			"dead": true
+		},
+		{
+			"turn": 23.2,
+			"type": "COLLISION",
+			"attacked": "1",
+			"by": "5",
+			"damage": 18,
+			"dead": true
+		},
+		{
+			"turn": 23.2,
+			"type": "COLLISION",
+			"attacked": "2",
+			"by": "6",
+			"damage": 18,
+			"dead": true
+		},
+		{
+			"turn": 23.2,
+			"type": "COLLISION",
+			"attacked": "3",
+			"by": "7",
+			"damage": 18,
+			"dead": true
+		}
+	],
+	"validationEvents": [
+		{
+			"turn": 0,
+			"team": 0,
+			"message": "attempted to spend over max spend 1000 (1100), locked plane choice to before over max spend"
+		},
+		{
+			"turn": 0,
+			"team": 1,
+			"message": "attempted to spend over max spend 1000 (1100), locked plane choice to before over max spend"
+		},
+		{
+			"turn": 1,
+			"team": 0,
+			"message": "sent incorrectly formatted data ([\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"object\",\n    \"received\": \"null\",\n    \"path\": [],\n    \"message\": \"Expected object, received null\"\n  }\n]), strike 1/3"
+		},
+		{
+			"turn": 1,
+			"team": 1,
+			"message": "sent incorrectly formatted data ([\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"object\",\n    \"received\": \"null\",\n    \"path\": [],\n    \"message\": \"Expected object, received null\"\n  }\n]), strike 1/3"
+		},
+		{
+			"turn": 2,
+			"team": 0,
+			"message": "sent incorrectly formatted data ([\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"object\",\n    \"received\": \"null\",\n    \"path\": [],\n    \"message\": \"Expected object, received null\"\n  }\n]), strike 2/3"
+		},
+		{
+			"turn": 2,
+			"team": 1,
+			"message": "sent incorrectly formatted data ([\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"object\",\n    \"received\": \"null\",\n    \"path\": [],\n    \"message\": \"Expected object, received null\"\n  }\n]), strike 2/3"
+		},
+		{
+			"turn": 3,
+			"team": 1,
+			"message": "sent incorrectly formatted data ([\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"object\",\n    \"received\": \"null\",\n    \"path\": [],\n    \"message\": \"Expected object, received null\"\n  }\n]), strike 3/3"
+		},
+		{
+			"turn": 3,
+			"team": 1,
+			"message": "failed to respond 3 times in a row and was disconnected due to broken bot"
+		},
+		{
+			"turn": 3,
+			"team": 0,
+			"message": "sent incorrectly formatted data ([\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"object\",\n    \"received\": \"null\",\n    \"path\": [],\n    \"message\": \"Expected object, received null\"\n  }\n]), strike 3/3"
+		},
+		{
+			"turn": 3,
+			"team": 0,
+			"message": "failed to respond 3 times in a row and was disconnected due to broken bot"
+		}
+	],
+	"turns": [
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 45
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 45
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 0,
+						"y": 45
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 45
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -45
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -45
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 0,
+						"y": -45
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -45
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 43.00000000000001
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 43.00000000000001
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -3.6739403974420594e-16,
+						"y": 43.00000000000001
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 43.00000000000001
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -43.00000000000001
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -43.00000000000001
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 1.2246467991473532e-16,
+						"y": -43.00000000000001
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -43.00000000000001
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 41.000000000000014
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 41.000000000000014
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -7.347880794884124e-16,
+						"y": 41.000000000000014
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 41.000000000000014
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -41.000000000000014
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -41.000000000000014
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.4492935982947064e-16,
+						"y": -41.000000000000014
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -41.000000000000014
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 39.00000000000002
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 39.00000000000002
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -1.1021821192326189e-15,
+						"y": 39.00000000000002
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 39.00000000000002
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -39.00000000000002
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -39.00000000000002
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 3.6739403974420594e-16,
+						"y": -39.00000000000002
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -39.00000000000002
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 37.00000000000003
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 37.00000000000003
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -1.4695761589768255e-15,
+						"y": 37.00000000000003
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 37.00000000000003
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -37.00000000000003
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -37.00000000000003
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 4.898587196589415e-16,
+						"y": -37.00000000000003
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -37.00000000000003
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 35.000000000000036
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 35.000000000000036
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -1.836970198721032e-15,
+						"y": 35.000000000000036
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 35.000000000000036
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -35.000000000000036
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -35.000000000000036
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 6.123233995736775e-16,
+						"y": -35.000000000000036
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -35.000000000000036
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 33.00000000000004
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 33.00000000000004
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.2043642384652386e-15,
+						"y": 33.00000000000004
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 33.00000000000004
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -33.00000000000004
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -33.00000000000004
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 7.347880794884136e-16,
+						"y": -33.00000000000004
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -33.00000000000004
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 31.00000000000005
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 31.00000000000005
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5717582782094452e-15,
+						"y": 31.00000000000005
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 31.00000000000005
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -31.00000000000005
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -31.00000000000005
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 8.572527594031496e-16,
+						"y": -31.00000000000005
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -31.00000000000005
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 29.000000000000057
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 29.000000000000057
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.939152317953652e-15,
+						"y": 29.000000000000057
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 29.000000000000057
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -29.000000000000057
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -29.000000000000057
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 9.797174393178845e-16,
+						"y": -29.000000000000057
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -29.000000000000057
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 27.000000000000064
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 27.000000000000064
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -3.3065463576978585e-15,
+						"y": 27.000000000000064
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 27.000000000000064
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -27.000000000000064
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -27.000000000000064
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 1.102182119232619e-15,
+						"y": -27.000000000000064
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -27.000000000000064
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 25.00000000000007
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 25.00000000000007
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -3.673940397442063e-15,
+						"y": 25.00000000000007
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 25.00000000000007
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -25.00000000000007
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -25.00000000000007
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 1.2246467991473537e-15,
+						"y": -25.00000000000007
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -25.00000000000007
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 23.000000000000078
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 23.000000000000078
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -4.041334437186264e-15,
+						"y": 23.000000000000078
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 23.000000000000078
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -23.000000000000078
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -23.000000000000078
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 1.3471114790620882e-15,
+						"y": -23.000000000000078
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -23.000000000000078
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 21.000000000000085
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 21.000000000000085
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -4.4087284769304645e-15,
+						"y": 21.000000000000085
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 21.000000000000085
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -21.000000000000085
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -21.000000000000085
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 1.4695761589768228e-15,
+						"y": -21.000000000000085
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -21.000000000000085
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 19.000000000000092
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 19.000000000000092
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -4.776122516674665e-15,
+						"y": 19.000000000000092
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 19.000000000000092
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -19.000000000000092
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -19.000000000000092
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 1.5920408388915573e-15,
+						"y": -19.000000000000092
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -19.000000000000092
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 17.0000000000001
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 17.0000000000001
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5.143516556418866e-15,
+						"y": 17.0000000000001
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 17.0000000000001
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -17.0000000000001
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -17.0000000000001
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 1.7145055188062919e-15,
+						"y": -17.0000000000001
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -17.0000000000001
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 15.000000000000107
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 15.000000000000107
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5.510910596163067e-15,
+						"y": 15.000000000000107
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 15.000000000000107
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -15.000000000000107
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -15.000000000000107
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 1.836970198721028e-15,
+						"y": -15.000000000000107
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -15.000000000000107
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 13.000000000000114
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 13.000000000000114
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5.878304635907267e-15,
+						"y": 13.000000000000114
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 13.000000000000114
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -13.000000000000114
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -13.000000000000114
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 1.9594348786357655e-15,
+						"y": -13.000000000000114
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -13.000000000000114
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 11.00000000000012
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 11.00000000000012
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -6.245698675651468e-15,
+						"y": 11.00000000000012
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 11.00000000000012
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -11.00000000000012
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -11.00000000000012
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.081899558550503e-15,
+						"y": -11.00000000000012
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -11.00000000000012
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 9.000000000000128
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 9.000000000000128
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -6.613092715395669e-15,
+						"y": 9.000000000000128
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 9.000000000000128
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -9.000000000000128
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -9.000000000000128
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.2043642384652406e-15,
+						"y": -9.000000000000128
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -9.000000000000128
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 7.000000000000128
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 7.000000000000128
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -6.9804867551398695e-15,
+						"y": 7.000000000000128
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 7.000000000000128
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -7.000000000000128
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -7.000000000000128
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.326828918379978e-15,
+						"y": -7.000000000000128
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -7.000000000000128
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 5.000000000000122
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 5.000000000000122
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -7.347880794884071e-15,
+						"y": 5.000000000000122
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 5.000000000000122
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -5.000000000000122
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -5.000000000000122
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.4492935982947156e-15,
+						"y": -5.000000000000122
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -5.000000000000122
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 3.000000000000119
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 3.000000000000119
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -7.715274834628272e-15,
+						"y": 3.000000000000119
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 3.000000000000119
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -3.000000000000119
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -3.000000000000119
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.571758278209453e-15,
+						"y": -3.000000000000119
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -3.000000000000119
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 1.0000000000001195
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 19
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 1.0000000000001195
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 19
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -8.082668874372472e-15,
+						"y": 1.0000000000001195
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 19
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 1.0000000000001195
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 19
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -1.0000000000001195
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 19
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -1.0000000000001195
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 19
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.6942229581241906e-15,
+						"y": -1.0000000000001195
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 19
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -1.0000000000001195
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 19
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 0.46666666666678625
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 0.46666666666678625
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -8.18064061830426e-15,
+						"y": 0.46666666666678625
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": 0.46666666666678625
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -0.46666666666678625
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -0.46666666666678625
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.726880206101454e-15,
+						"y": -0.46666666666678625
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5,
+						"y": -0.46666666666678625
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				}
+			}
+		}
+	]
+}

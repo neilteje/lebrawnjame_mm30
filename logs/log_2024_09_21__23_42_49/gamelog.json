@@ -1,0 +1,9141 @@
+{
+	"wins": [
+		1,
+		0
+	],
+	"stats": {
+		"remainingPlaneScores": [
+			300,
+			0
+		],
+		"totalSpends": [
+			1000,
+			1000
+		],
+		"dealtDamages": [
+			0,
+			0
+		]
+	},
+	"planeStats": {
+		"STANDARD": {
+			"cost": 200,
+			"maxHealth": 20,
+			"turnSpeed": 15,
+			"speed": 2,
+			"attack": 1,
+			"attackRange": 5,
+			"attackSpreadAngle": 30
+		},
+		"FLYING_FORTRESS": {
+			"cost": 300,
+			"maxHealth": 30,
+			"turnSpeed": 10,
+			"speed": 1,
+			"attack": 1,
+			"attackRange": 8,
+			"attackSpreadAngle": 30
+		},
+		"THUNDERBIRD": {
+			"cost": 200,
+			"maxHealth": 10,
+			"turnSpeed": 15,
+			"speed": 2.5,
+			"attack": 1,
+			"attackRange": 5,
+			"attackSpreadAngle": 30
+		},
+		"SCRAPYARD_RESCUE": {
+			"cost": 100,
+			"maxHealth": 5,
+			"turnSpeed": 10,
+			"speed": 1.5,
+			"attack": 1,
+			"attackRange": 4,
+			"attackSpreadAngle": 20
+		},
+		"PIGEON": {
+			"cost": 10,
+			"maxHealth": 1,
+			"turnSpeed": 30,
+			"speed": 0.5,
+			"attack": 0,
+			"attackRange": 0,
+			"attackSpreadAngle": 0
+		}
+	},
+	"damageEvents": [
+		{
+			"turn": 16.066666666666666,
+			"type": "BORDER",
+			"attacked": "0",
+			"damage": 20,
+			"dead": true
+		},
+		{
+			"turn": 16.066666666666666,
+			"type": "BORDER",
+			"attacked": "1",
+			"damage": 20,
+			"dead": true
+		},
+		{
+			"turn": 16.066666666666666,
+			"type": "BORDER",
+			"attacked": "4",
+			"damage": 20,
+			"dead": true
+		},
+		{
+			"turn": 16.066666666666666,
+			"type": "BORDER",
+			"attacked": "5",
+			"damage": 20,
+			"dead": true
+		},
+		{
+			"turn": 52.4,
+			"type": "BORDER",
+			"attacked": "7",
+			"damage": 30,
+			"dead": true
+		},
+		{
+			"turn": 54.93333333333333,
+			"type": "BORDER",
+			"attacked": "2",
+			"damage": 30,
+			"dead": true
+		},
+		{
+			"turn": 54.93333333333333,
+			"type": "BORDER",
+			"attacked": "6",
+			"damage": 30,
+			"dead": true
+		}
+	],
+	"validationEvents": [],
+	"turns": [
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 45
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 45
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 0,
+						"y": 45
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.5,
+						"y": 45
+					},
+					"angle": 270,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -45
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -45
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 0,
+						"y": -45
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.5,
+						"y": -45
+					},
+					"angle": 90,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -4.739692487462403,
+						"y": 43.022768141069285
+					},
+					"angle": 285,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.7603075125375987,
+						"y": 43.022768141069285
+					},
+					"angle": 255,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 0.0870451633720825,
+						"y": 44.005069229954714
+					},
+					"angle": 280.0000000000003,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.4129548366279177,
+						"y": 44.00506922995471
+					},
+					"angle": 259.9999999999997,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5.260307512537602,
+						"y": -43.02276814106927
+					},
+					"angle": 105,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.2396924874624022,
+						"y": -43.022768141069285
+					},
+					"angle": 75,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -0.0870451633720825,
+						"y": -44.00506922995471
+					},
+					"angle": 100.00000000000007,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.587045163372081,
+						"y": -44.00506922995471
+					},
+					"angle": 79.99999999999993,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -3.9765094766505418,
+						"y": 41.18028136579454
+					},
+					"angle": 300,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -3.52349052334946,
+						"y": 41.18028136579454
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 0.3455358302462487,
+						"y": 43.040368927897994
+					},
+					"angle": 290.00000000000057,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.154464169753754,
+						"y": 43.04036892789799
+					},
+					"angle": 249.99999999999972,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -6.023490523349472,
+						"y": -41.18028136579452
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -1.4765094766505416,
+						"y": -41.18028136579454
+					},
+					"angle": 60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -0.34553583024624546,
+						"y": -43.04036892789797
+					},
+					"angle": 110.00000000000014,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.845535830246242,
+						"y": -43.04036892789799
+					},
+					"angle": 69.99999999999986,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.7624606285316884,
+						"y": 39.598102103057414
+					},
+					"angle": 315,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -4.737539371468315,
+						"y": 39.59810210305741
+					},
+					"angle": 225,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 0.7676178925121137,
+						"y": 42.135211024345914
+					},
+					"angle": 300.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 1.7323821074878947,
+						"y": 42.13521102434591
+					},
+					"angle": 239.99999999999986,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -7.237539371468343,
+						"y": -39.598102103057386
+					},
+					"angle": 135,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -0.26246062853168595,
+						"y": -39.598102103057414
+					},
+					"angle": 45,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -0.7676178925121061,
+						"y": -42.13521102434589
+					},
+					"angle": 120.00000000000021,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 3.2676178925120993,
+						"y": -42.13521102434591
+					},
+					"angle": 59.99999999999984,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -1.1802813657945588,
+						"y": 38.38405325493855
+					},
+					"angle": 330,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -6.3197186342054446,
+						"y": 38.38405325493854
+					},
+					"angle": 210,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 1.3404666002915604,
+						"y": 41.31709828416592
+					},
+					"angle": 310.00000000000114,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 1.1595333997084607,
+						"y": 41.317098284165915
+					},
+					"angle": 230,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -8.819718634205495,
+						"y": -38.384053254938514
+					},
+					"angle": 150,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 1.319718634205444,
+						"y": -38.38405325493856
+					},
+					"angle": 30,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -1.3404666002915477,
+						"y": -41.3170982841659
+					},
+					"angle": 130.00000000000023,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 3.8404666002915326,
+						"y": -41.317098284165915
+					},
+					"angle": 49.99999999999987,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 0.6622054094801706,
+						"y": 37.620870244126685
+					},
+					"angle": 345,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -8.162205409480174,
+						"y": 37.62087024412668
+					},
+					"angle": 195,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.0466762354741395,
+						"y": 40.61088864898338
+					},
+					"angle": 320.0000000000014,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 0.45332376452589773,
+						"y": 40.610888648983355
+					},
+					"angle": 220.00000000000014,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -10.662205409480245,
+						"y": -37.62087024412664
+					},
+					"angle": 165,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 3.162205409480189,
+						"y": -37.62087024412669
+					},
+					"angle": 15,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -2.046676235474121,
+						"y": -40.610888648983334
+					},
+					"angle": 140.00000000000009,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 4.546676235474098,
+						"y": -40.61088864898336
+					},
+					"angle": 39.99999999999991,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.6394372684108864,
+						"y": 37.36056273158908
+					},
+					"angle": 360,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -10.139437268410893,
+						"y": 37.36056273158907
+					},
+					"angle": 180,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.8647889756541463,
+						"y": 40.03803994120398
+					},
+					"angle": 330.0000000000017,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -0.36478897565409263,
+						"y": 40.03803994120393
+					},
+					"angle": 210.00000000000028,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -12.639437268410989,
+						"y": -37.36056273158903
+					},
+					"angle": 180,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 5.139437268410932,
+						"y": -37.36056273158908
+					},
+					"angle": 0,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -2.864788975654126,
+						"y": -40.0380399412039
+					},
+					"angle": 149.99999999999994,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 5.364788975654092,
+						"y": -40.03803994120394
+					},
+					"angle": 29.99999999999993,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 4.616669127341601,
+						"y": 37.620870244126685
+					},
+					"angle": 375,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -12.11666912734161,
+						"y": 37.62087024412668
+					},
+					"angle": 165,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 3.7699468792062336,
+						"y": 39.61595787893816
+					},
+					"angle": 340.000000000002,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -1.2699468792061623,
+						"y": 39.615957878938055
+					},
+					"angle": 200.00000000000043,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -14.61666912734173,
+						"y": -37.620870244126635
+					},
+					"angle": 195,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 7.116669127341674,
+						"y": -37.6208702441267
+					},
+					"angle": -15,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -3.769946879206215,
+						"y": -39.615957878938026
+					},
+					"angle": 159.9999999999998,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 6.2699468792061746,
+						"y": -39.615957878938076
+					},
+					"angle": 19.99999999999991,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 6.459155902616331,
+						"y": 38.38405325493855
+					},
+					"angle": 390,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -13.959155902616338,
+						"y": 38.38405325493854
+					},
+					"angle": 150,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 4.734647181262965,
+						"y": 39.35746721206404
+					},
+					"angle": 350.0000000000023,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -2.2346471812628836,
+						"y": 39.35746721206389
+					},
+					"angle": 190.00000000000057,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -16.45915590261647,
+						"y": -38.3840532549385
+					},
+					"angle": 210,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 8.959155902616425,
+						"y": -38.38405325493857
+					},
+					"angle": -30,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -4.734647181262956,
+						"y": -39.35746721206386
+					},
+					"angle": 169.99999999999966,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 7.2346471812629165,
+						"y": -39.35746721206391
+					},
+					"angle": 9.999999999999911,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 8.041335165353459,
+						"y": 39.59810210305741
+					},
+					"angle": 405,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -15.541335165353468,
+						"y": 39.59810210305741
+					},
+					"angle": 135,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 5.729577951308256,
+						"y": 39.270422048692
+					},
+					"angle": 360.00000000000256,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -3.2295779513081704,
+						"y": 39.2704220486918
+					},
+					"angle": 180.0000000000007,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -18.0413351653536,
+						"y": -39.59810210305736
+					},
+					"angle": 225,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 10.541335165353578,
+						"y": -39.598102103057435
+					},
+					"angle": -45,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -5.7295779513082605,
+						"y": -39.27042204869177
+					},
+					"angle": 179.99999999999952,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 8.229577951308222,
+						"y": -39.27042204869182
+					},
+					"angle": -8.859579736508749e-14,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 9.255384013472312,
+						"y": 41.180281365794535
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -16.75538401347232,
+						"y": 41.180281365794535
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 6.724508721353538,
+						"y": 39.35746721206413
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -4.224508721353459,
+						"y": 39.357467212063874
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -19.255384013472447,
+						"y": -41.18028136579449
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 11.75538401347245,
+						"y": -41.18028136579459
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -6.7245087213535655,
+						"y": -39.357467212063845
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 9.22450872135353,
+						"y": -39.35746721206391
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 10.255384013472309,
+						"y": 42.9123321733634
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -17.755384013472316,
+						"y": 42.9123321733634
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 7.709316474365734,
+						"y": 39.53111538973107
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -5.209316474365668,
+						"y": 39.531115389730815
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -20.255384013472444,
+						"y": -42.91233217336336
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 12.755384013472446,
+						"y": -42.91233217336346
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -7.7093164743657745,
+						"y": -39.531115389730786
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 10.209316474365739,
+						"y": -39.53111538973085
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 11.255384013472305,
+						"y": 44.64438298093227
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -18.755384013472312,
+						"y": 44.64438298093227
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 8.694124227377939,
+						"y": 39.70476356739801
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -6.194124227377877,
+						"y": 39.704763567397755
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.25538401347244,
+						"y": -44.64438298093223
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 13.755384013472442,
+						"y": -44.64438298093233
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -8.694124227377984,
+						"y": -39.70476356739773
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 11.194124227377948,
+						"y": -39.70476356739779
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 12.255384013472302,
+						"y": 46.37643378850114
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -19.75538401347231,
+						"y": 46.37643378850114
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 9.678931980390148,
+						"y": 39.87841174506495
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -7.178931980390086,
+						"y": 39.878411745064696
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -22.255384013472437,
+						"y": -46.376433788501096
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.755384013472439,
+						"y": -46.376433788501195
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -9.678931980390193,
+						"y": -39.87841174506467
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 12.178931980390157,
+						"y": -39.87841174506473
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 13.255384013472298,
+						"y": 48.10848459607001
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -20.755384013472305,
+						"y": 48.10848459607001
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 10.663739733402357,
+						"y": 40.05205992273189
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -8.163739733402295,
+						"y": 40.05205992273164
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -23.255384013472433,
+						"y": -48.108484596069964
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 15.755384013472435,
+						"y": -48.10848459607006
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -10.663739733402402,
+						"y": -40.05205992273161
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 13.163739733402366,
+						"y": -40.05205992273167
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.255384013472295,
+						"y": 49.840535403638874
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.7553840134723,
+						"y": 49.840535403638874
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 11.648547486414566,
+						"y": 40.22570810039883
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -9.148547486414504,
+						"y": 40.22570810039858
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.25538401347243,
+						"y": -49.84053540363883
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.755384013472433,
+						"y": -49.84053540363893
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -11.64854748641461,
+						"y": -40.22570810039855
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 14.148547486414575,
+						"y": -40.22570810039861
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 12.633355239426775,
+						"y": 40.399356278065774
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -10.133355239426713,
+						"y": 40.39935627806552
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -12.63335523942682,
+						"y": -40.39935627806549
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 15.133355239426784,
+						"y": -40.399356278065554
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 13.618162992438984,
+						"y": 40.573004455732715
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -11.118162992438922,
+						"y": 40.57300445573246
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.618162992439029,
+						"y": -40.57300445573243
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.118162992438993,
+						"y": -40.573004455732494
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 14.602970745451193,
+						"y": 40.746652633399655
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -12.102970745451131,
+						"y": 40.7466526333994
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -14.602970745451238,
+						"y": -40.74665263339937
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 17.102970745451202,
+						"y": -40.746652633399435
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 15.587778498463402,
+						"y": 40.920300811066596
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.08777849846334,
+						"y": 40.92030081106634
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -15.587778498463447,
+						"y": -40.92030081106631
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.08777849846341,
+						"y": -40.920300811066376
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.57258625147561,
+						"y": 41.09394898873354
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -14.072586251475549,
+						"y": 41.09394898873328
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.572586251475656,
+						"y": -41.09394898873325
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 19.07258625147562,
+						"y": -41.09394898873332
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 17.55739400448782,
+						"y": 41.26759716640048
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -15.057394004487758,
+						"y": 41.26759716640022
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -17.557394004487865,
+						"y": -41.26759716640019
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 20.05739400448783,
+						"y": -41.26759716640026
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.542201757500028,
+						"y": 41.44124534406742
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.042201757499967,
+						"y": 41.44124534406716
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -18.542201757500074,
+						"y": -41.441245344067134
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 21.042201757500038,
+						"y": -41.4412453440672
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 19.527009510512237,
+						"y": 41.61489352173436
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -17.027009510512176,
+						"y": 41.6148935217341
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -19.527009510512283,
+						"y": -41.614893521734075
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 22.027009510512247,
+						"y": -41.61489352173414
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 20.511817263524446,
+						"y": 41.7885416994013
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -18.011817263524385,
+						"y": 41.788541699401044
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -20.51181726352449,
+						"y": -41.788541699401016
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 23.011817263524456,
+						"y": -41.78854169940108
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 21.496625016536655,
+						"y": 41.96218987706824
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -18.996625016536594,
+						"y": 41.962189877067985
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -21.4966250165367,
+						"y": -41.962189877067956
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 23.996625016536665,
+						"y": -41.96218987706802
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 22.481432769548864,
+						"y": 42.13583805473518
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -19.981432769548803,
+						"y": 42.135838054734926
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -22.48143276954891,
+						"y": -42.1358380547349
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 24.981432769548874,
+						"y": -42.13583805473496
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 23.466240522561073,
+						"y": 42.30948623240212
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -20.966240522561012,
+						"y": 42.309486232401866
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -23.46624052256112,
+						"y": -42.30948623240184
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 25.966240522561083,
+						"y": -42.3094862324019
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 24.45104827557328,
+						"y": 42.48313441006906
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -21.95104827557322,
+						"y": 42.48313441006881
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -24.451048275573328,
+						"y": -42.48313441006878
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 26.951048275573292,
+						"y": -42.48313441006884
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 25.43585602858549,
+						"y": 42.656782587736004
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -22.93585602858543,
+						"y": 42.65678258773575
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -25.435856028585537,
+						"y": -42.65678258773572
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 27.9358560285855,
+						"y": -42.65678258773578
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 26.4206637815977,
+						"y": 42.830430765402944
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -23.92066378159764,
+						"y": 42.83043076540269
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -26.420663781597746,
+						"y": -42.83043076540266
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 28.92066378159771,
+						"y": -42.830430765402724
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 27.40547153460991,
+						"y": 43.004078943069885
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -24.90547153460985,
+						"y": 43.00407894306963
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -27.405471534609955,
+						"y": -43.0040789430696
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 29.90547153460992,
+						"y": -43.004078943069665
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 28.390279287622118,
+						"y": 43.177727120736826
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -25.890279287622057,
+						"y": 43.17772712073657
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -28.390279287622164,
+						"y": -43.17772712073654
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 30.89027928762213,
+						"y": -43.177727120736606
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 29.375087040634327,
+						"y": 43.35137529840377
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -26.875087040634266,
+						"y": 43.35137529840351
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -29.375087040634373,
+						"y": -43.35137529840348
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 31.875087040634337,
+						"y": -43.351375298403546
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 30.359894793646536,
+						"y": 43.52502347607071
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -27.859894793646475,
+						"y": 43.52502347607045
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -30.359894793646582,
+						"y": -43.52502347607042
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 32.8598947936465,
+						"y": -43.52502347607049
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 31.344702546658745,
+						"y": 43.69867165373765
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -28.844702546658684,
+						"y": 43.69867165373739
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -31.34470254665879,
+						"y": -43.698671653737364
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 33.84470254665865,
+						"y": -43.69867165373743
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 32.329510299670936,
+						"y": 43.87231983140459
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -29.829510299670893,
+						"y": 43.87231983140433
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -32.32951029967102,
+						"y": -43.872319831404305
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 34.82951029967081,
+						"y": -43.87231983140437
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 33.31431805268309,
+						"y": 44.04596800907153
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -30.814318052683102,
+						"y": 44.045968009071274
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -33.314318052683284,
+						"y": -44.045968009071245
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 35.814318052682964,
+						"y": -44.04596800907131
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 34.29912580569525,
+						"y": 44.21961618673847
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -31.79912580569531,
+						"y": 44.219616186738214
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -34.299125805695546,
+						"y": -44.219616186738186
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 36.79912580569512,
+						"y": -44.21961618673825
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 35.2839335587074,
+						"y": 44.39326436440541
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -32.78393355870756,
+						"y": 44.393264364405155
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -35.28393355870781,
+						"y": -44.39326436440513
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 37.783933558707275,
+						"y": -44.39326436440519
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 36.26874131171956,
+						"y": 44.56691254207235
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -33.76874131171982,
+						"y": 44.566912542072096
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -36.26874131172007,
+						"y": -44.56691254207207
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 38.76874131171943,
+						"y": -44.56691254207213
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 37.253549064731715,
+						"y": 44.74056071973929
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -34.753549064732084,
+						"y": 44.74056071973904
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -37.25354906473233,
+						"y": -44.74056071973901
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 39.75354906473159,
+						"y": -44.74056071973907
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 38.23835681774387,
+						"y": 44.91420889740623
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -35.73835681774435,
+						"y": 44.91420889740598
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -38.238356817744595,
+						"y": -44.91420889740595
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 40.73835681774374,
+						"y": -44.91420889740601
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 39.223164570756026,
+						"y": 45.087857075073174
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -36.72316457075661,
+						"y": 45.08785707507292
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -39.22316457075686,
+						"y": -45.08785707507289
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 41.7231645707559,
+						"y": -45.087857075072954
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 40.20797232376818,
+						"y": 45.261505252740115
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -37.70797232376887,
+						"y": 45.26150525273986
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -40.20797232376912,
+						"y": -45.26150525273983
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 42.707972323768054,
+						"y": -45.261505252739894
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 41.19278007678034,
+						"y": 45.435153430407055
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -38.69278007678113,
+						"y": 45.4351534304068
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -41.19278007678138,
+						"y": -45.43515343040677
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 43.69278007678021,
+						"y": -45.435153430406835
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 42.17758782979249,
+						"y": 45.608801608073996
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -39.677587829793396,
+						"y": 45.60880160807374
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -42.177587829793644,
+						"y": -45.60880160807371
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 44.677587829792365,
+						"y": -45.608801608073776
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 43.16239558280465,
+						"y": 45.78244978574094
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -40.66239558280566,
+						"y": 45.78244978574068
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -43.16239558280591,
+						"y": -45.78244978574065
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 45.66239558280452,
+						"y": -45.78244978574072
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 44.147203335816805,
+						"y": 45.95609796340788
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -41.64720333581792,
+						"y": 45.95609796340762
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -44.14720333581817,
+						"y": -45.95609796340759
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 46.64720333581668,
+						"y": -45.95609796340766
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 45.13201108882896,
+						"y": 46.12974614107482
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -42.63201108883018,
+						"y": 46.12974614107456
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -45.13201108883043,
+						"y": -46.129746141074534
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 47.63201108882883,
+						"y": -46.1297461410746
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 46.116818841841116,
+						"y": 46.30339431874176
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -43.616818841842445,
+						"y": 46.3033943187415
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -46.116818841842694,
+						"y": -46.303394318741475
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 48.61681884184099,
+						"y": -46.30339431874154
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 47.10162659485327,
+						"y": 46.4770424964087
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -44.60162659485471,
+						"y": 46.477042496408444
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -47.101626594854956,
+						"y": -46.477042496408416
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 49.601626594853144,
+						"y": -46.47704249640848
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 48.08643434786543,
+						"y": 46.65069067407564
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -45.58643434786697,
+						"y": 46.650690674075385
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -48.08643434786722,
+						"y": -46.650690674075356
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 50.06120354625882,
+						"y": -46.55807831265305
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 49.07124210087758,
+						"y": 46.82433885174258
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -46.57124210087923,
+						"y": 46.824338851742326
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -49.07124210087948,
+						"y": -46.8243388517423
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 50.06120354625882,
+						"y": -46.55807831265305
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.388717346805628,
+						"y": 50.07147551131472
+					},
+					"angle": 420,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.888717346805635,
+						"y": 50.07147551131472
+					},
+					"angle": 120,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 50.05604985388974,
+						"y": 46.99798702940952
+					},
+					"angle": 370.00000000000284,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -47.556049853891494,
+						"y": 46.997987029409266
+					},
+					"angle": 170.00000000000085,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.388717346805763,
+						"y": -50.07147551131468
+					},
+					"angle": 240,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.888717346805766,
+						"y": -50.07147551131478
+					},
+					"angle": -60,
+					"stats": {
+						"cost": 200,
+						"maxHealth": 20,
+						"turnSpeed": 15,
+						"speed": 2,
+						"attack": 1,
+						"attackRange": 5,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -50.05604985389174,
+						"y": -46.99798702940924
+					},
+					"angle": 189.99999999999937,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 50.06120354625882,
+						"y": -46.55807831265305
+					},
+					"angle": -10.000000000000087,
+					"stats": {
+						"cost": 300,
+						"maxHealth": 30,
+						"turnSpeed": 10,
+						"speed": 1,
+						"attack": 1,
+						"attackRange": 8,
+						"attackSpreadAngle": 30
+					},
+					"health": 0
+				}
+			}
+		}
+	]
+}

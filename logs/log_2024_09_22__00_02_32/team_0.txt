@@ -1,0 +1,7 @@
+Connecting to server on port 3001...
+Connected to server on port 3001
+You tied!
+Stats:
+- 0 remaining plane score
+- Spent 1000 points
+- Dealt 4 damage

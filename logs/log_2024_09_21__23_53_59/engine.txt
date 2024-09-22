@@ -1,0 +1,29 @@
+
+> engine@0.1.0 start
+> node --enable-source-maps out/main.js 3001 3002
+
+Waiting for connection from team 0 on 3001
+Waiting for connection from team 1 on 3002
+Connected to team 0 on 3001
+Connected to team 1 on 3002
+Game started!
+[Turn 30.466666666666665] [Damage event] PLANE_ATTACK: plane 0 damaged by 7 for 1 damage, still alive
+[Turn 31] [Damage event] PLANE_ATTACK: plane 0 damaged by 7 for 1 damage, still alive
+[Turn 31.466666666666665] [Damage event] PLANE_ATTACK: plane 7 damaged by 0 for 1 damage, still alive
+[Turn 32] [Damage event] PLANE_ATTACK: plane 7 damaged by 0 for 1 damage, still alive
+[Turn 32] [Damage event] PLANE_ATTACK: plane 0 damaged by 7 for 1 damage, still alive
+[Turn 32.8] [Damage event] COLLISION: plane 7 damaged by 0 for 28 damage, now dead
+[Turn 32.8] [Damage event] COLLISION: plane 0 damaged by 7 for 17 damage, now dead
+[Turn 43.4] [Damage event] PLANE_ATTACK: plane 6 damaged by 3 for 1 damage, still alive
+[Turn 43.4] [Damage event] PLANE_ATTACK: plane 3 damaged by 6 for 1 damage, still alive
+[Turn 44] [Damage event] PLANE_ATTACK: plane 6 damaged by 3 for 1 damage, still alive
+[Turn 44] [Damage event] PLANE_ATTACK: plane 3 damaged by 6 for 1 damage, still alive
+[Turn 51.06666666666667] [Damage event] BORDER: plane 1 damaged for 20 damage, now dead
+[Turn 51.06666666666667] [Damage event] BORDER: plane 4 damaged for 20 damage, now dead
+[Turn 51.06666666666667] [Damage event] BORDER: plane 5 damaged for 20 damage, now dead
+[Turn 97.2] [Damage event] BORDER: plane 2 damaged for 30 damage, now dead
+[Turn 97.2] [Damage event] BORDER: plane 3 damaged for 28 damage, now dead
+[Turn 97.2] [Damage event] BORDER: plane 6 damaged for 28 damage, now dead
+Game ended!
+Writing gamelog to ../../logs/log_2024_09_21__23_53_59/gamelog.json...
+Done

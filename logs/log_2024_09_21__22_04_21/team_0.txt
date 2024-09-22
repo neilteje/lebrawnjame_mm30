@@ -1,0 +1,30 @@
+Connecting to server on port 3001...
+Connected to server on port 3001
+Something went wrong running your bot: 'Strategy' object has no attribute 'my_counter'
+Traceback (most recent call last):
+File "/Users/sanjilee/development/lebrawnjame_mm30/main.py", line 245, in serve
+response = strategy.steer_input(planes)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/Users/sanjilee/development/lebrawnjame_mm30/strategy/sanji_strategy.py", line 40, in steer_input
+if self.my_counter < 5:
+^^^^^^^^^^^^^^^
+AttributeError: 'Strategy' object has no attribute 'my_counter'
+Something went wrong running your bot: 'Strategy' object has no attribute 'my_counter'
+Traceback (most recent call last):
+File "/Users/sanjilee/development/lebrawnjame_mm30/main.py", line 245, in serve
+response = strategy.steer_input(planes)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/Users/sanjilee/development/lebrawnjame_mm30/strategy/sanji_strategy.py", line 40, in steer_input
+if self.my_counter < 5:
+^^^^^^^^^^^^^^^
+AttributeError: 'Strategy' object has no attribute 'my_counter'
+Something went wrong running your bot: 'Strategy' object has no attribute 'my_counter'
+Traceback (most recent call last):
+File "/Users/sanjilee/development/lebrawnjame_mm30/main.py", line 245, in serve
+response = strategy.steer_input(planes)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/Users/sanjilee/development/lebrawnjame_mm30/strategy/sanji_strategy.py", line 40, in steer_input
+if self.my_counter < 5:
+^^^^^^^^^^^^^^^
+AttributeError: 'Strategy' object has no attribute 'my_counter'
+Your bot failed to respond 3 times in a row (is your bot broken?) and was disconnected

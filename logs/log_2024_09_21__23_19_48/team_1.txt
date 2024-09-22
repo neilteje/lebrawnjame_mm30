@@ -1,0 +1,30 @@
+Connecting to server on port 3002...
+Connected to server on port 3002
+Something went wrong running your bot: 'Vector' object has no attribute 'position'
+Traceback (most recent call last):
+File "/Users/sanjilee/development/lebrawnjame_mm30/main.py", line 245, in serve
+response = strategy.steer_input(planes)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/Users/sanjilee/development/lebrawnjame_mm30/strategy/sanji_strategy.py", line 54, in steer_input
+if (self.distance(plane.position, enemy.position) < min):
+^^^^^^^^^^^^^^
+AttributeError: 'Vector' object has no attribute 'position'
+Something went wrong running your bot: 'Vector' object has no attribute 'position'
+Traceback (most recent call last):
+File "/Users/sanjilee/development/lebrawnjame_mm30/main.py", line 245, in serve
+response = strategy.steer_input(planes)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/Users/sanjilee/development/lebrawnjame_mm30/strategy/sanji_strategy.py", line 54, in steer_input
+if (self.distance(plane.position, enemy.position) < min):
+^^^^^^^^^^^^^^
+AttributeError: 'Vector' object has no attribute 'position'
+Something went wrong running your bot: 'Vector' object has no attribute 'position'
+Traceback (most recent call last):
+File "/Users/sanjilee/development/lebrawnjame_mm30/main.py", line 245, in serve
+response = strategy.steer_input(planes)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/Users/sanjilee/development/lebrawnjame_mm30/strategy/sanji_strategy.py", line 54, in steer_input
+if (self.distance(plane.position, enemy.position) < min):
+^^^^^^^^^^^^^^
+AttributeError: 'Vector' object has no attribute 'position'
+Your bot failed to respond 3 times in a row (is your bot broken?) and was disconnected

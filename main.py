@@ -21,7 +21,7 @@ except:
 
 from network.client import Client
 from network.received_message import ReceivedMessage, ReceivedMessagePhase
-from strategy.strategy import Strategy
+from strategy.sanji_strategy import Strategy
 
 raw_debug_env = os.environ.get("DEBUG")
 DEBUG = raw_debug_env == "1" or raw_debug_env == "true"

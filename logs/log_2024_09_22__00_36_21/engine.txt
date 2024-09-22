@@ -1,0 +1,78 @@
+
+> engine@0.1.0 start
+> node --enable-source-maps out/main.js 3001 3002
+
+Waiting for connection from team 0 on 3001
+Waiting for connection from team 1 on 3002
+Connected to team 0 on 3001
+Connected to team 1 on 3002
+Game started!
+[Turn 27] [Validation Error] Player 1 sent incorrectly formatted data ([
+{
+"code": "invalid_type",
+"expected": "object",
+"received": "null",
+"path": [],
+"message": "Expected object, received null"
+}
+]), strike 1/3
+[Turn 27] [Validation Error] Player 0 sent incorrectly formatted data ([
+{
+"code": "invalid_type",
+"expected": "object",
+"received": "null",
+"path": [],
+"message": "Expected object, received null"
+}
+]), strike 1/3
+[Turn 28] [Validation Error] Player 0 sent incorrectly formatted data ([
+{
+"code": "invalid_type",
+"expected": "object",
+"received": "null",
+"path": [],
+"message": "Expected object, received null"
+}
+]), strike 2/3
+[Turn 28] [Validation Error] Player 1 sent incorrectly formatted data ([
+{
+"code": "invalid_type",
+"expected": "object",
+"received": "null",
+"path": [],
+"message": "Expected object, received null"
+}
+]), strike 2/3
+[Turn 29] [Validation Error] Player 0 sent incorrectly formatted data ([
+{
+"code": "invalid_type",
+"expected": "object",
+"received": "null",
+"path": [],
+"message": "Expected object, received null"
+}
+]), strike 3/3
+[Turn 29] [Validation Error] Player 0 failed to respond 3 times in a row and was disconnected due to broken bot
+[Turn 29] [Validation Error] Player 1 sent incorrectly formatted data ([
+{
+"code": "invalid_type",
+"expected": "object",
+"received": "null",
+"path": [],
+"message": "Expected object, received null"
+}
+]), strike 3/3
+[Turn 29] [Validation Error] Player 1 failed to respond 3 times in a row and was disconnected due to broken bot
+[Turn 49.13333333333333] [Damage event] PLANE_ATTACK: plane 7 damaged by 2 for 1 damage, still alive
+[Turn 49.13333333333333] [Damage event] PLANE_ATTACK: plane 6 damaged by 3 for 1 damage, still alive
+[Turn 49.13333333333333] [Damage event] PLANE_ATTACK: plane 3 damaged by 6 for 1 damage, still alive
+[Turn 49.13333333333333] [Damage event] PLANE_ATTACK: plane 2 damaged by 7 for 1 damage, still alive
+[Turn 50] [Damage event] PLANE_ATTACK: plane 7 damaged by 2 for 1 damage, still alive
+[Turn 50] [Damage event] PLANE_ATTACK: plane 6 damaged by 3 for 1 damage, still alive
+[Turn 50] [Damage event] PLANE_ATTACK: plane 3 damaged by 6 for 1 damage, still alive
+[Turn 50] [Damage event] PLANE_ATTACK: plane 2 damaged by 7 for 1 damage, still alive
+[Turn 62.93333333333333] [Damage event] BORDER: plane 0 damaged for 20 damage, now dead
+[Turn 62.93333333333333] [Damage event] BORDER: plane 1 damaged for 20 damage, now dead
+[Turn 62.93333333333333] [Damage event] BORDER: plane 4 damaged for 20 damage, now dead
+[Turn 62.93333333333333] [Damage event] BORDER: plane 5 damaged for 20 damage, now dead
+[Turn 102.93333333333334] [Damage event] BORDER: plane 2 damaged for 28 damage, now dead

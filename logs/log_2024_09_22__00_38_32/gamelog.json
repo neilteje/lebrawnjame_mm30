@@ -1,0 +1,9709 @@
+{
+	"wins": [
+		0.5,
+		0.5
+	],
+	"stats": {
+		"remainingPlaneScores": [
+			0,
+			0
+		],
+		"totalSpends": [
+			1000,
+			1000
+		],
+		"dealtDamages": [
+			4,
+			4
+		]
+	},
+	"planeStats": {
+		"STANDARD": {
+			"cost": 200,
+			"maxHealth": 20,
+			"turnSpeed": 15,
+			"speed": 2,
+			"attack": 1,
+			"attackRange": 5,
+			"attackSpreadAngle": 30
+		},
+		"FLYING_FORTRESS": {
+			"cost": 300,
+			"maxHealth": 30,
+			"turnSpeed": 10,
+			"speed": 1,
+			"attack": 1,
+			"attackRange": 8,
+			"attackSpreadAngle": 30
+		},
+		"THUNDERBIRD": {
+			"cost": 200,
+			"maxHealth": 10,
+			"turnSpeed": 15,
+			"speed": 2.5,
+			"attack": 1,
+			"attackRange": 5,
+			"attackSpreadAngle": 30
+		},
+		"SCRAPYARD_RESCUE": {
+			"cost": 100,
+			"maxHealth": 5,
+			"turnSpeed": 10,
+			"speed": 1.5,
+			"attack": 1,
+			"attackRange": 4,
+			"attackSpreadAngle": 20
+		},
+		"PIGEON": {
+			"cost": 10,
+			"maxHealth": 1,
+			"turnSpeed": 30,
+			"speed": 0.5,
+			"attack": 0,
+			"attackRange": 0,
+			"attackSpreadAngle": 0
+		}
+	},
+	"damageEvents": [
+		{
+			"turn": 49.13333333333333,
+			"type": "PLANE_ATTACK",
+			"attacked": "7",
+			"by": "2",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 49.13333333333333,
+			"type": "PLANE_ATTACK",
+			"attacked": "6",
+			"by": "3",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 49.13333333333333,
+			"type": "PLANE_ATTACK",
+			"attacked": "3",
+			"by": "6",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 49.13333333333333,
+			"type": "PLANE_ATTACK",
+			"attacked": "2",
+			"by": "7",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 50,
+			"type": "PLANE_ATTACK",
+			"attacked": "7",
+			"by": "2",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 50,
+			"type": "PLANE_ATTACK",
+			"attacked": "6",
+			"by": "3",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 50,
+			"type": "PLANE_ATTACK",
+			"attacked": "3",
+			"by": "6",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 50,
+			"type": "PLANE_ATTACK",
+			"attacked": "2",
+			"by": "7",
+			"damage": 1,
+			"dead": false
+		},
+		{
+			"turn": 62.93333333333333,
+			"type": "BORDER",
+			"attacked": "0",
+			"damage": 20,
+			"dead": true
+		},
+		{
+			"turn": 62.93333333333333,
+			"type": "BORDER",
+			"attacked": "1",
+			"damage": 20,
+			"dead": true
+		},
+		{
+			"turn": 62.93333333333333,
+			"type": "BORDER",
+			"attacked": "4",
+			"damage": 20,
+			"dead": true
+		},
+		{
+			"turn": 62.93333333333333,
+			"type": "BORDER",
+			"attacked": "5",
+			"damage": 20,
+			"dead": true
+		},
+		{
+			"turn": 102.93333333333334,
+			"type": "BORDER",
+			"attacked": "2",
+			"damage": 28,
+			"dead": true
+		},
+		{
+			"turn": 102.93333333333334,
+			"type": "BORDER",
+			"attacked": "3",
+			"damage": 28,
+			"dead": true
+		},
+		{
+			"turn": 102.93333333333334,
+			"type": "BORDER",
+			"attacked": "6",
+			"damage": 28,
+			"dead": true
+		},
+		{
+			"turn": 102.93333333333334,
+			"type": "BORDER",
+			"attacked": "7",
+			"damage": 28,
+			"dead": true
+		}
+	],
+	"validationEvents": [
+		{
+			"turn": 27,
+			"team": 1,
+			"message": "sent incorrectly formatted data ([\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"object\",\n    \"received\": \"null\",\n    \"path\": [],\n    \"message\": \"Expected object, received null\"\n  }\n]), strike 1/3"
+		},
+		{
+			"turn": 27,
+			"team": 0,
+			"message": "sent incorrectly formatted data ([\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"object\",\n    \"received\": \"null\",\n    \"path\": [],\n    \"message\": \"Expected object, received null\"\n  }\n]), strike 1/3"
+		},
+		{
+			"turn": 28,
+			"team": 1,
+			"message": "sent incorrectly formatted data ([\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"object\",\n    \"received\": \"null\",\n    \"path\": [],\n    \"message\": \"Expected object, received null\"\n  }\n]), strike 2/3"
+		},
+		{
+			"turn": 28,
+			"team": 0,
+			"message": "sent incorrectly formatted data ([\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"object\",\n    \"received\": \"null\",\n    \"path\": [],\n    \"message\": \"Expected object, received null\"\n  }\n]), strike 2/3"
+		},
+		{
+			"turn": 29,
+			"team": 0,
+			"message": "sent incorrectly formatted data ([\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"object\",\n    \"received\": \"null\",\n    \"path\": [],\n    \"message\": \"Expected object, received null\"\n  }\n]), strike 3/3"
+		},
+		{
+			"turn": 29,
+			"team": 0,
+			"message": "failed to respond 3 times in a row and was disconnected due to broken bot"
+		},
+		{
+			"turn": 29,
+			"team": 1,
+			"message": "sent incorrectly formatted data ([\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"object\",\n    \"received\": \"null\",\n    \"path\": [],\n    \"message\": \"Expected object, received null\"\n  }\n]), strike 3/3"
+		},
+		{
+			"turn": 29,
+			"team": 1,
+			"message": "failed to respond 3 times in a row and was disconnected due to broken bot"
+		}
+	],
+	"turns": [
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": 45
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": 45
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 0,
+						"y": 45
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.5,
+						"y": 45
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5,
+						"y": -45
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.5,
+						"y": -45
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 0,
+						"y": -45
+					},
+					"angle": 90,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.5,
+						"y": -45
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -4.739692487462403,
+						"y": 43.022768141069285
+					},
+					"angle": 285,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.7603075125375987,
+						"y": 43.022768141069285
+					},
+					"angle": 255,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 0.0870451633720825,
+						"y": 44.005069229954714
+					},
+					"angle": 280.0000000000003,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.4129548366279177,
+						"y": 44.00506922995471
+					},
+					"angle": 259.9999999999997,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -5.260307512537602,
+						"y": -43.02276814106927
+					},
+					"angle": 105,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.2396924874624022,
+						"y": -43.022768141069285
+					},
+					"angle": 75,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -0.0870451633720825,
+						"y": -44.00506922995471
+					},
+					"angle": 100.00000000000007,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.587045163372081,
+						"y": -44.00506922995471
+					},
+					"angle": 79.99999999999993,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -3.9765094766505418,
+						"y": 41.18028136579454
+					},
+					"angle": 300,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -3.52349052334946,
+						"y": 41.18028136579454
+					},
+					"angle": 240,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 0.3455358302462487,
+						"y": 43.040368927897994
+					},
+					"angle": 290.00000000000057,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.154464169753754,
+						"y": 43.04036892789799
+					},
+					"angle": 249.99999999999972,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -6.023490523349472,
+						"y": -41.18028136579452
+					},
+					"angle": 120,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -1.4765094766505416,
+						"y": -41.18028136579454
+					},
+					"angle": 60,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -0.34553583024624546,
+						"y": -43.04036892789797
+					},
+					"angle": 110.00000000000014,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.845535830246242,
+						"y": -43.04036892789799
+					},
+					"angle": 69.99999999999986,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -2.7624606285316884,
+						"y": 39.598102103057414
+					},
+					"angle": 315,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -4.737539371468315,
+						"y": 39.59810210305741
+					},
+					"angle": 225,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 0.7676178925121137,
+						"y": 42.135211024345914
+					},
+					"angle": 300.00000000000085,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 1.7323821074878947,
+						"y": 42.13521102434591
+					},
+					"angle": 239.99999999999986,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -7.237539371468343,
+						"y": -39.598102103057386
+					},
+					"angle": 135,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -0.26246062853168595,
+						"y": -39.598102103057414
+					},
+					"angle": 45,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -0.7676178925121061,
+						"y": -42.13521102434589
+					},
+					"angle": 120.00000000000021,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 3.2676178925120993,
+						"y": -42.13521102434591
+					},
+					"angle": 59.99999999999984,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -1.1802813657945588,
+						"y": 38.38405325493855
+					},
+					"angle": 330,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -6.3197186342054446,
+						"y": 38.38405325493854
+					},
+					"angle": 210,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 1.3404666002915604,
+						"y": 41.31709828416592
+					},
+					"angle": 310.00000000000114,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 1.1595333997084607,
+						"y": 41.317098284165915
+					},
+					"angle": 230,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -8.819718634205495,
+						"y": -38.384053254938514
+					},
+					"angle": 150,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 1.319718634205444,
+						"y": -38.38405325493856
+					},
+					"angle": 30,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -1.3404666002915477,
+						"y": -41.3170982841659
+					},
+					"angle": 130.00000000000023,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 3.8404666002915326,
+						"y": -41.317098284165915
+					},
+					"angle": 49.99999999999987,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 0.6622054094801706,
+						"y": 37.620870244126685
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -8.162205409480174,
+						"y": 37.62087024412668
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.0466762354741395,
+						"y": 40.61088864898338
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 0.45332376452589773,
+						"y": 40.610888648983355
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -10.662205409480245,
+						"y": -37.62087024412664
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 3.162205409480189,
+						"y": -37.62087024412669
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -2.046676235474121,
+						"y": -40.610888648983334
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 4.546676235474098,
+						"y": -40.61088864898336
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 2.5940570620583068,
+						"y": 37.10323215392169
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -10.094057062058308,
+						"y": 37.10323215392168
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 2.8127206785931333,
+						"y": 39.9681010392969
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -0.31272067859307895,
+						"y": 39.96810103929677
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -12.59405706205838,
+						"y": -37.103232153921645
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 5.094057062058323,
+						"y": -37.103232153921695
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -2.8127206785931014,
+						"y": -39.96810103929675
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 5.312720678593078,
+						"y": -39.968101039296776
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 4.525908714636441,
+						"y": 36.58559406371669
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -12.025908714636442,
+						"y": 36.585594063716684
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 3.5787651217121272,
+						"y": 39.32531342961042
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -1.078765121712056,
+						"y": 39.32531342961018
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -14.525908714636513,
+						"y": -36.58559406371665
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 7.025908714636457,
+						"y": -36.5855940637167
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -3.578765121712082,
+						"y": -39.32531342961016
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 6.078765121712059,
+						"y": -39.32531342961019
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 6.457760367214575,
+						"y": 36.067955973511694
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -13.957760367214576,
+						"y": 36.06795597351169
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 4.344809564831121,
+						"y": 38.68252581992394
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -1.8448095648310332,
+						"y": 38.6825258199236
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -16.457760367214654,
+						"y": -36.06795597351165
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 8.957760367214592,
+						"y": -36.0679559735117
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -4.3448095648310625,
+						"y": -38.682525819923576
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 6.844809564831039,
+						"y": -38.682525819923605
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 8.38961201979271,
+						"y": 35.5503178833067
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -15.88961201979271,
+						"y": 35.55031788330669
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 5.110854007950115,
+						"y": 38.03973821023746
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -2.610854007950008,
+						"y": 38.03973821023701
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -18.389612019792814,
+						"y": -35.550317883306654
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 10.889612019792725,
+						"y": -35.550317883306704
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -5.110854007950043,
+						"y": -38.03973821023699
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 7.61085400795002,
+						"y": -38.03973821023702
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 10.321463672370843,
+						"y": 35.0326797931017
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -17.821463672370868,
+						"y": 35.03267979310169
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 5.876898451069109,
+						"y": 37.39695060055098
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -3.376898451068982,
+						"y": 37.396950600550426
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -20.321463672370975,
+						"y": -35.03267979310166
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 12.821463672370859,
+						"y": -35.03267979310171
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -5.876898451069024,
+						"y": -37.396950600550404
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 8.376898451069,
+						"y": -37.39695060055043
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 12.253315324948977,
+						"y": 34.5150417028967
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -19.75331532494903,
+						"y": 34.515041702896696
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 6.642942894188103,
+						"y": 36.7541629908645
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -4.142942894187957,
+						"y": 36.75416299086384
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -22.253315324949135,
+						"y": -34.51504170289666
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.753315324948993,
+						"y": -34.51504170289671
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -6.642942894188004,
+						"y": -36.75416299086382
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 9.14294289418798,
+						"y": -36.75416299086385
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 14.18516697752711,
+						"y": 33.997403612691706
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -21.68516697752719,
+						"y": 33.9974036126917
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 7.408987337307097,
+						"y": 36.11137538117802
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -4.908987337306938,
+						"y": 36.111375381177254
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -24.185166977527295,
+						"y": -33.99740361269166
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.685166977527135,
+						"y": -33.99740361269171
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -7.408987337306985,
+						"y": -36.11137538117723
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 9.90898733730696,
+						"y": -36.11137538117726
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 16.117018630105246,
+						"y": 33.47976552248671
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -23.61701863010535,
+						"y": 33.4797655224867
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 8.175031780426087,
+						"y": 35.46858777149154
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -5.675031780425918,
+						"y": 35.46858777149067
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -26.117018630105456,
+						"y": -33.479765522486666
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 18.617018630105296,
+						"y": -33.479765522486716
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -8.175031780425964,
+						"y": -35.46858777149065
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 10.675031780425941,
+						"y": -35.468587771490675
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 18.048870282683406,
+						"y": 32.96212743228171
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -25.54887028268351,
+						"y": 32.962127432281704
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 8.941076223545068,
+						"y": 34.82580016180506
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -6.441076223544899,
+						"y": 34.82580016180408
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -28.048870282683616,
+						"y": -32.96212743228167
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 20.548870282683456,
+						"y": -32.96212743228172
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -8.941076223544945,
+						"y": -34.82580016180406
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 11.441076223544922,
+						"y": -34.82580016180409
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 19.980721935261567,
+						"y": 32.444489342076714
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -27.48072193526167,
+						"y": 32.44448934207671
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 9.707120666664048,
+						"y": 34.18301255211858
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -7.207120666663879,
+						"y": 34.183012552117496
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -29.980721935261776,
+						"y": -32.44448934207667
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 22.480721935261617,
+						"y": -32.44448934207672
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -9.707120666663926,
+						"y": -34.183012552117475
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 12.207120666663902,
+						"y": -34.1830125521175
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 21.912573587839727,
+						"y": 31.926851251871707
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -29.41257358783983,
+						"y": 31.9268512518717
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 10.473165109783029,
+						"y": 33.540224942432104
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -7.97316510978286,
+						"y": 33.54022494243091
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -31.912573587839937,
+						"y": -31.926851251871664
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 24.412573587839777,
+						"y": -31.926851251871714
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -10.473165109782906,
+						"y": -33.54022494243089
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 12.973165109782883,
+						"y": -33.54022494243092
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 23.844425240417888,
+						"y": 31.409213161666656
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -31.34442524041799,
+						"y": 31.40921316166665
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 11.23920955290201,
+						"y": 32.897437332745625
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -8.73920955290184,
+						"y": 32.897437332744325
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -33.8444252404181,
+						"y": -31.409213161666614
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 26.344425240417937,
+						"y": -31.409213161666663
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -11.239209552901887,
+						"y": -32.8974373327443
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 13.739209552901864,
+						"y": -32.89743733274433
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 25.776276892996048,
+						"y": 30.891575071461606
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -33.27627689299615,
+						"y": 30.8915750714616
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 12.00525399602099,
+						"y": 32.254649723059146
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -9.505253996020821,
+						"y": 32.25464972305774
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -35.77627689299626,
+						"y": -30.891575071461563
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 28.276276892996098,
+						"y": -30.891575071461613
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -12.005253996020867,
+						"y": -32.25464972305772
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 14.505253996020844,
+						"y": -32.254649723057746
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 27.70812854557421,
+						"y": 30.373936981256556
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -35.20812854557431,
+						"y": 30.37393698125655
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 12.77129843913997,
+						"y": 31.61186211337263
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -10.271298439139802,
+						"y": 31.61186211337119
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -37.70812854557442,
+						"y": -30.373936981256513
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 30.208128545574258,
+						"y": -30.373936981256563
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -12.771298439139848,
+						"y": -31.611862113371167
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 15.271298439139825,
+						"y": -31.611862113371195
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 29.63998019815237,
+						"y": 29.856298891051505
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -37.13998019815247,
+						"y": 29.856298891051498
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 13.537342882258951,
+						"y": 30.969074503686098
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -11.037342882258782,
+						"y": 30.969074503684656
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -39.63998019815258,
+						"y": -29.856298891051463
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 32.139980198152415,
+						"y": -29.856298891051512
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.537342882258828,
+						"y": -30.969074503684634
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.037342882258805,
+						"y": -30.969074503684663
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 31.57183185073053,
+						"y": 29.338660800846455
+					},
+					"angle": 345,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -39.07183185073063,
+						"y": 29.338660800846448
+					},
+					"angle": 195,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 14.303387325377932,
+						"y": 30.326286893999566
+					},
+					"angle": 320.0000000000014,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -11.803387325377763,
+						"y": 30.326286893998123
+					},
+					"angle": 220.00000000000014,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -41.57183185073074,
+						"y": -29.338660800846412
+					},
+					"angle": 165,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 34.071831850730575,
+						"y": -29.338660800846462
+					},
+					"angle": 15,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -14.303387325377809,
+						"y": -30.326286893998102
+					},
+					"angle": 140.00000000000009,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.80338732537776,
+						"y": -30.32628689399813
+					},
+					"angle": 39.99999999999991,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 33.414318626005276,
+						"y": 28.5754777900346
+					},
+					"angle": 330,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -40.91431862600538,
+						"y": 28.575477790034576
+					},
+					"angle": 210,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 15.009596960560513,
+						"y": 29.620077258817012
+					},
+					"angle": 310.00000000000114,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -12.509596960560328,
+						"y": 29.620077258815556
+					},
+					"angle": 230,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -43.41431862600548,
+						"y": -28.575477790034544
+					},
+					"angle": 150,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 35.914318626005326,
+						"y": -28.575477790034586
+					},
+					"angle": 30,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -15.009596960560376,
+						"y": -29.620077258815538
+					},
+					"angle": 130.00000000000023,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 17.50959696056033,
+						"y": -29.62007725881556
+					},
+					"angle": 49.99999999999987,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 34.9964978887424,
+						"y": 27.36142894191575
+					},
+					"angle": 315,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -42.49649788874251,
+						"y": 27.36142894191573
+					},
+					"angle": 225,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 15.582445668339961,
+						"y": 28.80196451863704
+					},
+					"angle": 300.00000000000085,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.082445668339762,
+						"y": 28.801964518635565
+					},
+					"angle": 239.99999999999986,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.99649788874262,
+						"y": -27.36142894191569
+					},
+					"angle": 135,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.49649788874247,
+						"y": -27.361428941915722
+					},
+					"angle": 45,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -15.582445668339814,
+						"y": -28.801964518635547
+					},
+					"angle": 120.0000000000002,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.08244566833978,
+						"y": -28.801964518635565
+					},
+					"angle": 59.99999999999984,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 36.210546736861254,
+						"y": 25.779249679178616
+					},
+					"angle": 300,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -43.71054673686137,
+						"y": 25.779249679178598
+					},
+					"angle": 240,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.004527730605826,
+						"y": 27.896806615084973
+					},
+					"angle": 290.00000000000057,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.504527730605618,
+						"y": 27.89680661508349
+					},
+					"angle": 249.99999999999972,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -46.210546736861474,
+						"y": -25.779249679178555
+					},
+					"angle": 120,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 38.71054673686133,
+						"y": -25.779249679178566
+					},
+					"angle": 60,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.00452773060567,
+						"y": -27.896806615083474
+					},
+					"angle": 110.00000000000013,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.504527730605638,
+						"y": -27.896806615083484
+					},
+					"angle": 69.99999999999986,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 36.97372974767312,
+						"y": 23.93676290390389
+					},
+					"angle": 285,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.47372974767323,
+						"y": 23.936762903903873
+					},
+					"angle": 255,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.26301839747999,
+						"y": 26.932106313028253
+					},
+					"angle": 280.0000000000003,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.763018397479781,
+						"y": 26.93210631302677
+					},
+					"angle": 259.9999999999997,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -46.97372974767334,
+						"y": -23.93676290390383
+					},
+					"angle": 105,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.4737297476732,
+						"y": -23.93676290390381
+					},
+					"angle": 75,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.26301839747983,
+						"y": -26.932106313026754
+					},
+					"angle": 100.00000000000006,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.7630183974798,
+						"y": -26.932106313026754
+					},
+					"angle": 79.99999999999993,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": 21.959531044973172
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": 21.959531044973158
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 25.93717554298297
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 25.937175542981485
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": -21.959531044973115
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": -21.959531044973073
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -25.93717554298147
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -25.93717554298145
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": 19.95953104497318
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": 19.959531044973165
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 24.937175542982974
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 24.93717554298149
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": -19.959531044973122
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": -19.95953104497308
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -24.937175542981475
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -24.937175542981453
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": 17.959531044973186
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": 17.959531044973172
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 23.937175542982978
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 23.937175542981493
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": -17.95953104497313
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": -17.959531044973087
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -23.93717554298148
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -23.937175542981457
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": 15.959531044973193
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": 15.959531044973179
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 22.93717554298298
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 22.937175542981496
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": -15.959531044973136
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": -15.959531044973094
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -22.937175542981482
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -22.93717554298146
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": 13.9595310449732
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": 13.959531044973186
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 21.937175542982985
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 21.9371755429815
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": -13.959531044973144
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": -13.959531044973101
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -21.937175542981485
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -21.937175542981464
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": 11.959531044973208
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": 11.959531044973193
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 20.937175542982988
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 20.937175542981503
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": -11.95953104497315
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": -11.959531044973108
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -20.93717554298149
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -20.937175542981468
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": 9.959531044973215
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": 9.9595310449732
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 19.93717554298299
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 19.937175542981507
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": -9.959531044973158
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": -9.959531044973115
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -19.937175542981493
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -19.93717554298147
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": 7.959531044973221
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": 7.959531044973207
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 18.937175542982995
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 18.93717554298151
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": -7.959531044973164
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": -7.959531044973121
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -18.937175542981496
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -18.937175542981475
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": 5.959531044973215
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": 5.9595310449732
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 17.937175542983
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 17.937175542981514
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": -5.959531044973158
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": -5.959531044973115
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -17.9371755429815
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -17.93717554298148
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": 3.959531044973209
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": 3.9595310449731946
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 16.937175542983002
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 16.937175542981517
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": -3.959531044973152
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": -3.9595310449731094
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -16.937175542981503
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -16.937175542981482
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": 1.9595310449732093
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": 1.959531044973195
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 15.937175542983006
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 15.937175542981521
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": -1.9595310449731524
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": -1.9595310449731098
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -15.937175542981507
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -15.937175542981485
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -0.04046895502679035
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -0.04046895502680456
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 14.93717554298301
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 14.937175542981525
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 0.04046895502684719
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 0.040468955026889825
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -14.93717554298151
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -14.937175542981489
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -2.0404689550267903
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -2.0404689550268045
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 13.937175542983013
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 13.937175542981528
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 2.040468955026847
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 2.0404689550268897
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -13.937175542981514
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -13.937175542981493
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -4.04046895502679
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -4.040468955026804
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 12.937175542983017
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 12.937175542981532
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 4.040468955026847
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 4.040468955026889
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -12.937175542981517
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -12.937175542981496
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -6.040468955026796
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -6.04046895502681
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 11.93717554298302
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 11.937175542981535
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 6.040468955026853
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 6.0404689550268955
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -11.937175542981521
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -11.9371755429815
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -8.040468955026801
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -8.040468955026816
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 10.937175542983024
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 10.937175542981539
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 8.040468955026858
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 8.0404689550269
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -10.937175542981525
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -10.937175542981503
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -10.040468955026794
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -10.040468955026808
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 9.937175542983027
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 9.937175542981542
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 10.040468955026851
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 10.040468955026894
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -9.937175542981528
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -9.937175542981507
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -12.040468955026787
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -12.040468955026801
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 8.93717554298303
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 8.937175542981546
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 12.040468955026844
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 12.040468955026887
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -8.937175542981532
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -8.93717554298151
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -14.04046895502678
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -14.040468955026794
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 7.937175542983034
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 7.937175542981549
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 14.040468955026837
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 14.04046895502688
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -7.937175542981535
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -7.937175542981514
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -16.040468955026775
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -16.04046895502679
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 6.937175542983038
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 6.937175542981553
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 16.04046895502683
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 16.040468955026874
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -6.937175542981539
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -6.937175542981517
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -18.040468955026768
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -18.040468955026782
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 5.9371755429830415
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 5.9371755429815565
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 18.040468955026824
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 18.040468955026867
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -5.937175542981542
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -5.937175542981521
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -20.04046895502676
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -20.040468955026775
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 4.937175542983045
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 4.93717554298156
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 20.040468955026817
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 20.04046895502686
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -4.937175542981546
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -4.9371755429815245
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -22.040468955026753
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -22.040468955026768
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 3.937175542983048
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 3.937175542981563
+					},
+					"angle": 270,
+					"health": 30
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 22.04046895502681
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 22.040468955026853
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -3.937175542981549
+					},
+					"angle": 89.99999999999999,
+					"health": 30
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -3.9371755429815276
+					},
+					"angle": 90,
+					"health": 30
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -24.040468955026746
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -24.04046895502676
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 2.937175542983045
+					},
+					"angle": 270,
+					"health": 29
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 2.93717554298156
+					},
+					"angle": 270,
+					"health": 29
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 24.040468955026803
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 24.040468955026846
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -2.937175542981546
+					},
+					"angle": 89.99999999999999,
+					"health": 29
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -2.9371755429815245
+					},
+					"angle": 90,
+					"health": 29
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -26.04046895502674
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -26.040468955026753
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 1.9371755429830422
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 1.9371755429815571
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 26.040468955026796
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 26.04046895502684
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -1.937175542981543
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -1.9371755429815216
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -28.040468955026732
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -28.040468955026746
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": 0.9371755429830424
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": 0.9371755429815574
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 28.04046895502679
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 28.04046895502683
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": -0.9371755429815432
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": -0.9371755429815218
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -30.040468955026725
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -30.04046895502674
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -0.06282445701695742
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -0.06282445701844246
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 30.040468955026782
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 30.040468955026824
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 0.06282445701845667
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 0.06282445701847798
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -32.04046895502672
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -32.04046895502673
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -1.0628244570169574
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -1.0628244570184424
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 32.040468955026775
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 32.04046895502682
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 1.0628244570184566
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 1.062824457018478
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -34.04046895502671
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -34.040468955026725
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -2.062824457016957
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -2.062824457018442
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 34.04046895502677
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 34.04046895502681
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 2.0628244570184564
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 2.0628244570184777
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -36.040468955026704
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -36.04046895502672
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -3.0628244570169603
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -3.0628244570184453
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 36.04046895502676
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 36.0404689550268
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 3.0628244570184595
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 3.062824457018481
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -38.0404689550267
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -38.04046895502671
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -4.062824457016963
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -4.062824457018448
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 38.04046895502675
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 38.040468955026796
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 4.062824457018462
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 4.0628244570184835
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -40.04046895502669
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -40.040468955026704
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -5.062824457016959
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -5.062824457018444
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 40.040468955026746
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 40.04046895502679
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 5.062824457018459
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 5.06282445701848
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -42.04046895502668
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -42.0404689550267
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -6.062824457016956
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -6.062824457018441
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 42.04046895502674
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 42.04046895502678
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 6.062824457018455
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 6.062824457018476
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -44.040468955026675
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -44.04046895502669
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -7.062824457016952
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -7.062824457018437
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 44.04046895502673
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 44.040468955026775
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 7.0628244570184515
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 7.062824457018473
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -46.04046895502667
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -46.04046895502668
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -8.06282445701695
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -8.062824457018435
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 46.040468955026725
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 46.04046895502677
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 8.062824457018449
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 8.06282445701847
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -48.04046895502666
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -48.040468955026675
+					},
+					"angle": 270,
+					"health": 20
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -9.062824457016946
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -9.062824457018431
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 48.04046895502672
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 48.04046895502676
+					},
+					"angle": 90,
+					"health": 20
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 9.062824457018445
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 9.062824457018467
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -10.062824457016943
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -10.062824457018428
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 10.062824457018442
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 10.062824457018463
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -11.062824457016939
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -11.062824457018424
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 11.062824457018438
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 11.06282445701846
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -12.062824457016935
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -12.06282445701842
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 12.062824457018435
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 12.062824457018456
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -13.062824457016932
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -13.062824457018417
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 13.062824457018431
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 13.062824457018452
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -14.062824457016928
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -14.062824457018413
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 14.062824457018428
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 14.062824457018449
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -15.062824457016925
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -15.06282445701841
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 15.062824457018424
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 15.062824457018445
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -16.062824457016923
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -16.062824457018408
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 16.062824457018422
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 16.062824457018444
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -17.06282445701692
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -17.062824457018404
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 17.06282445701842
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 17.06282445701844
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -18.062824457016916
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -18.0628244570184
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 18.062824457018415
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 18.062824457018436
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -19.062824457016912
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -19.062824457018397
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 19.06282445701841
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 19.062824457018433
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -20.06282445701691
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -20.062824457018394
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 20.062824457018408
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 20.06282445701843
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -21.062824457016905
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -21.06282445701839
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 21.062824457018404
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 21.062824457018426
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -22.0628244570169
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -22.062824457018387
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 22.0628244570184
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 22.062824457018422
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -23.062824457016898
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -23.062824457018383
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 23.062824457018397
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 23.06282445701842
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -24.062824457016895
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -24.06282445701838
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 24.062824457018394
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 24.062824457018415
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -25.06282445701689
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -25.062824457018376
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 25.06282445701839
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 25.06282445701841
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -26.062824457016887
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -26.062824457018372
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 26.062824457018387
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 26.062824457018408
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -27.062824457016884
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -27.06282445701837
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 27.062824457018383
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 27.062824457018404
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -28.06282445701688
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -28.062824457018365
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 28.06282445701838
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 28.0628244570184
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -29.062824457016877
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -29.062824457018362
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 29.062824457018376
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 29.062824457018397
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -30.062824457016873
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -30.06282445701836
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 30.062824457018372
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 30.062824457018394
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -31.06282445701687
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -31.062824457018355
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 31.06282445701837
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 31.06282445701839
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -32.062824457016866
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -32.06282445701835
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 32.062824457018365
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 32.06282445701839
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -33.062824457016916
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -33.0628244570184
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 33.062824457018415
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 33.062824457018436
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -34.062824457016966
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -34.06282445701845
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 34.062824457018465
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 34.062824457018486
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -35.062824457017015
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -35.0628244570185
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 35.062824457018515
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 35.062824457018536
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -36.062824457017065
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -36.06282445701855
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 36.062824457018564
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 36.062824457018586
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -37.062824457017115
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -37.0628244570186
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 37.062824457018614
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 37.062824457018635
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -38.062824457017165
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -38.06282445701865
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 38.062824457018664
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 38.062824457018685
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -39.062824457017214
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -39.0628244570187
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 39.06282445701871
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 39.062824457018735
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -40.062824457017264
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -40.06282445701875
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 40.06282445701876
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 40.062824457018785
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -41.062824457017314
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -41.0628244570188
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 41.06282445701881
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 41.062824457018834
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -42.06282445701736
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -42.06282445701885
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 42.06282445701886
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 42.062824457018884
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -43.06282445701741
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -43.0628244570189
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 43.06282445701891
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 43.062824457018934
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -44.06282445701746
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -44.06282445701895
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 44.06282445701896
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 44.06282445701898
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -45.06282445701751
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -45.062824457019
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 45.06282445701901
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 45.06282445701903
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -46.06282445701756
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -46.06282445701905
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 46.06282445701906
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 46.06282445701908
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -47.06282445701761
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -47.0628244570191
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 47.06282445701911
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 47.06282445701913
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -48.06282445701766
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -48.06282445701915
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 48.06282445701916
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 48.06282445701918
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -49.06282445701771
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -49.0628244570192
+					},
+					"angle": 270,
+					"health": 28
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 49.06282445701921
+					},
+					"angle": 89.99999999999999,
+					"health": 28
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 49.06282445701923
+					},
+					"angle": 90,
+					"health": 28
+				}
+			}
+		},
+		{
+			"planes": {
+				"0": {
+					"id": "0",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": 37.23403726021072,
+						"y": -50.040468955026654
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"1": {
+					"id": "1",
+					"team": 0,
+					"type": "STANDARD",
+					"position": {
+						"x": -44.73403726021084,
+						"y": -50.04046895502667
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"2": {
+					"id": "2",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 16.35006356085207,
+						"y": -50.06282445701776
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"3": {
+					"id": "3",
+					"team": 0,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -13.850063560851863,
+						"y": -50.062824457019246
+					},
+					"angle": 270,
+					"health": 0
+				},
+				"4": {
+					"id": "4",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": -47.23403726021094,
+						"y": 50.04046895502671
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"5": {
+					"id": "5",
+					"team": 1,
+					"type": "STANDARD",
+					"position": {
+						"x": 39.734037260210805,
+						"y": 50.04046895502675
+					},
+					"angle": 90,
+					"health": 0
+				},
+				"6": {
+					"id": "6",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": -16.35006356085191,
+						"y": 50.06282445701926
+					},
+					"angle": 89.99999999999999,
+					"health": 0
+				},
+				"7": {
+					"id": "7",
+					"team": 1,
+					"type": "FLYING_FORTRESS",
+					"position": {
+						"x": 18.850063560851883,
+						"y": 50.06282445701928
+					},
+					"angle": 90,
+					"health": 0
+				}
+			}
+		}
+	]
+}

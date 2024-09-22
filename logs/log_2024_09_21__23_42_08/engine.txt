@@ -1,0 +1,36 @@
+
+> engine@0.1.0 start
+> node --enable-source-maps out/main.js 3001 3002
+
+Waiting for connection from team 0 on 3001
+Waiting for connection from team 1 on 3002
+Connected to team 0 on 3001
+Connected to team 1 on 3002
+Game started!
+[Turn 23.133333333333333] [Damage event] PLANE_ATTACK: plane 5 damaged by 0 for 1 damage, still alive
+[Turn 23.133333333333333] [Damage event] PLANE_ATTACK: plane 4 damaged by 1 for 1 damage, still alive
+[Turn 29.133333333333333] [Damage event] PLANE_ATTACK: plane 0 damaged by 7 for 1 damage, still alive
+[Turn 30] [Damage event] PLANE_ATTACK: plane 0 damaged by 7 for 1 damage, still alive
+[Turn 42.8] [Damage event] PLANE_ATTACK: plane 7 damaged by 2 for 1 damage, still alive
+[Turn 42.8] [Damage event] PLANE_ATTACK: plane 6 damaged by 3 for 1 damage, still alive
+[Turn 42.8] [Damage event] PLANE_ATTACK: plane 3 damaged by 6 for 1 damage, still alive
+[Turn 42.8] [Damage event] PLANE_ATTACK: plane 2 damaged by 7 for 1 damage, still alive
+[Turn 43] [Damage event] PLANE_ATTACK: plane 7 damaged by 2 for 1 damage, still alive
+[Turn 43] [Damage event] PLANE_ATTACK: plane 6 damaged by 3 for 1 damage, still alive
+[Turn 43] [Damage event] PLANE_ATTACK: plane 3 damaged by 6 for 1 damage, still alive
+[Turn 43] [Damage event] PLANE_ATTACK: plane 2 damaged by 7 for 1 damage, still alive
+[Turn 44] [Damage event] PLANE_ATTACK: plane 7 damaged by 2 for 1 damage, still alive
+[Turn 44] [Damage event] PLANE_ATTACK: plane 6 damaged by 3 for 1 damage, still alive
+[Turn 45] [Damage event] PLANE_ATTACK: plane 7 damaged by 2 for 1 damage, still alive
+[Turn 45] [Damage event] PLANE_ATTACK: plane 6 damaged by 3 for 1 damage, still alive
+[Turn 50.13333333333333] [Damage event] BORDER: plane 0 damaged for 18 damage, now dead
+[Turn 50.13333333333333] [Damage event] BORDER: plane 1 damaged for 20 damage, now dead
+[Turn 50.13333333333333] [Damage event] BORDER: plane 4 damaged for 19 damage, now dead
+[Turn 50.13333333333333] [Damage event] BORDER: plane 5 damaged for 19 damage, now dead
+[Turn 97.4] [Damage event] BORDER: plane 2 damaged for 28 damage, now dead
+[Turn 97.4] [Damage event] BORDER: plane 3 damaged for 28 damage, now dead
+[Turn 97.4] [Damage event] BORDER: plane 6 damaged for 26 damage, now dead
+[Turn 97.4] [Damage event] BORDER: plane 7 damaged for 26 damage, now dead
+Game ended!
+Writing gamelog to ../../logs/log_2024_09_21__23_42_08/gamelog.json...
+Done

@@ -243,7 +243,7 @@ class Game {
                 const DELTA = 1 / CONFIG.ATTACK_STEPS;
                 const deltaAngle = DELTA * angleDiffs[plane.id];
                 const deltaPosition = this.interpolatePlanePosition(plane, DELTA * plane.stats.speed, deltaAngle);
-                plane.angle += deltaAngle;
+                plane.angle = (0, angle_1.normalizeAngle)(plane.angle + deltaAngle);
                 plane.position.add(deltaPosition);
                 // Check in bounds
                 if (!this.inBounds(plane.position)) {

@@ -27,13 +27,19 @@ class Log {
         this.turns.push(turn);
     }
     finish(wins, stats) {
+        const newTurns = this.turns.map((turn) => ({
+            planes: Object.fromEntries(Object.entries(turn.planes).map(([id, plane]) => [
+                id,
+                Object.assign(Object.assign({}, plane), { stats: undefined }),
+            ])),
+        }));
         this.output = JSON.stringify({
             wins,
             stats,
             planeStats: this.planeStats,
             damageEvents: this.damageEvents,
             validationEvents: this.validationEvents,
-            turns: this.turns,
+            turns: newTurns,
         }, undefined, "\t");
     }
     toString() {
